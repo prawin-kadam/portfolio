@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Pravin Kadam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="avatar">
+                    <img src="assets\pfp_pravin.jpg" alt="Pravin Kadam">
+                </div>
+                <div class="hero-text">
+                    <h2>Hi, my name is</h2>
+                    <h1>PRAVIN KADAM</h1>
+                    <h2>I'm a <span class="highlight">Full Stack Developer</span></h2>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm a Computer Science graduate and MSc IT student with a strong foundation in web development and data handling. I enjoy building clean, responsive web applications and solving real-world problems using Python, Django, and modern front-end technologies.
+                    <br><br>
+                    I've worked on projects like an inventory management system and data-driven dashboards, and I'm continuously improving my skills in full-stack development, UI design, and analytics. I'm looking for opportunities where I can learn, contribute, and grow as a professional developer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <p>Python, Django, REST APIs, Database Design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Analytics</h3>
+                    <p>Data Visualization, Dashboard Creation, Python Analytics</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, VS Code, PostgreSQL, MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📦</div>
+                    <div class="project-content">
+                        <h3>Inventory Management System</h3>
+                        <p>A full-stack application for managing inventory with real-time updates and analytics dashboard.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive dashboards for data analysis with multiple chart types and filtering options.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                <a href="mailto:pravinkadam@example.com" class="btn btn-primary">Send Email</a>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">GH</a>
+                    <a href="#" class="social-link" title="LinkedIn">LI</a>
+                    <a href="#" class="social-link" title="Twitter">TW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Pravin Kadam. Built with passion and code.</p>
+    </footer>
 </body>
 </html>
